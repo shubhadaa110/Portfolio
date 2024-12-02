@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.hero {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a:hover {
+    color: #000;
+}
+
+.hero-content h1 span {
+    color: #ffc107;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffc107;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 0;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4caf50;
+    color: white;
+}
+
+
+a.logo {
+    font-size: 40px;
+}
